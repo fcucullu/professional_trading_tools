@@ -1,0 +1,109 @@
+﻿[info] [35m[Appium][39m Welcome to Appium v1.13.0
+[info] [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:deviceName":"Emulador1","appium:udid":"emulator-5554","appium:appPackage":"com.tarjetanaranja.ncuenta","appium:appActivity":"com.naranja.ncuenta.app.ui.StartupActivity","appium:app":"Y:\\Git\\APKs\\NaranjaX\\base.apk","appium:newCommandTimeout":3000}]},"desiredCapabilities":{"platformName":"Android","deviceName":"Emulador1","udid":"emulator-5554","appPackage":"com.tarjetanaranja.ncuenta","appActivity":"com.naranja.ncuenta.app.ui.StartupActivity","app":"Y:\\Git\\APKs\\NaranjaX\\base.apk","newCommandTimeout":3000}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","deviceName":"Emulador1","udid":"emulator-5554","appPackage":"com.tarjetanaranja.ncuenta","appActivity":"com.naranja.ncuenta.app.ui.StartupActivity","app":"Y:\\Git\\APKs\\NaranjaX\\base.apk","newCommandTimeout":3000},null,{"firstMatch":[{"platformName":"Android","appium:deviceName":"Emulador1","appium:udid":"emulator-5554","appium:appPackage":"com.tarjetanaranja.ncuenta","appium:appActivity":"com.naranja.ncuenta.app.ui.StartupActivity","appium:app":"Y:\\Git\\APKs\\NaranjaX\\base.apk","appium:newCommandTimeout":3000}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1569951897743 (14:44:57 GMT-0300 (Hora estándar de Argentina))
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m ======================================================================
+[warn] [35m[Appium][39m   DEPRECATION WARNING:
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[warn] [35m[Appium][39m   capabilities for this Android session
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   Setting 'automationName=UiAutomator1' by default and using the 
+[warn] [35m[Appium][39m   UiAutomator1 Driver
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The next minor version of Appium (1.14.x) will set 
+[warn] [35m[Appium][39m   'automationName=UiAutomator2' by default and use the UiAutomator2 
+[warn] [35m[Appium][39m   Driver
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[warn] [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[warn] [35m[Appium][39m   platforms
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   If you are happy with 'UiAutomator1' and do not wish to upgrade 
+[warn] [35m[Appium][39m   Android drivers, please add 'automationName=UiAutomator1' to your 
+[warn] [35m[Appium][39m   desired capabilities
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   For more information about drivers, please visit 
+[warn] [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[warn] [35m[Appium][39m   'Drivers' menu
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m ======================================================================
+[warn] [35m[Appium][39m 
+[info] [35m[Appium][39m Setting automation to 'UiAutomator1'. 
+[info] [35m[Appium][39m Appium v1.13.0 creating new AndroidDriver (v4.15.1) session
+[info] [35m[Appium][39m Capabilities:
+[info] [35m[Appium][39m   platformName: Android
+[info] [35m[Appium][39m   deviceName: Emulador1
+[info] [35m[Appium][39m   udid: emulator-5554
+[info] [35m[Appium][39m   appPackage: com.tarjetanaranja.ncuenta
+[info] [35m[Appium][39m   appActivity: com.naranja.ncuenta.app.ui.StartupActivity
+[info] [35m[Appium][39m   app: Y:\Git\APKs\NaranjaX\base.apk
+[info] [35m[Appium][39m   newCommandTimeout: 3000
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[info] [35m[BaseDriver][39m Session created with session id: a881c529-c256-4c89-b37e-4107e05b4396[debug] [35m[ADB][39m 1 device(s) connected
+[info] [35m[AndroidDriver][39m Using device: emulator-5554
+[info] [35m[ADB][39m Using 'adb.exe' from 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Setting device id to emulator-5554
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 25
+[debug] [35m[ADB][39m Device API level: 25
+[warn] [35m[AndroidDriver][39m Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[info] [35m[BaseDriver][39m Using local app 'Y:\Git\APKs\NaranjaX\base.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[info] [35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[info] [35m[ADB][39m Using 'aapt.exe' from 'C:\Users\fcucullu\AppData\Local\Android\Sdk\build-tools\29.0.2\aapt.exe'
+[debug] [35m[ADB][39m The version code of the installed 'io.appium.settings' is greater than the application version code (18 > 17)
+[debug] [35m[ADB][39m There is no need to install/upgrade 'C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep \^appium\\.settings\$'
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [35m[Logcat][39m Starting logcat capture
+[info] [35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 7.1.1
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell wm size'[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': Android SDK built for x86
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Google
+[debug] [35m[ADB][39m Getting install status for com.tarjetanaranja.ncuenta
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.tarjetanaranja.ncuenta'[debug] [35m[ADB][39m 'com.tarjetanaranja.ncuenta' is installed
+[debug] [35m[ADB][39m Getting install status for com.tarjetanaranja.ncuenta
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.tarjetanaranja.ncuenta'
+[debug] [35m[ADB][39m 'com.tarjetanaranja.ncuenta' is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tarjetanaranja.ncuenta'
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.tarjetanaranja.ncuenta'[warn] [35m[ADB][39m Error "Command 'C\:\\Users\\fcucullu\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2\\aapt.exe d badging Y\:\\Git\\APKs\\NaranjaX\\base.apk' exited with code 1" while getting badging info
+[warn] [35m[ADB][39m Cannot read version codes of 'Y:\Git\APKs\NaranjaX\base.apk' and/or 'com.tarjetanaranja.ncuenta'
+[warn] [35m[ADB][39m Cannot read version names of 'Y:\Git\APKs\NaranjaX\base.apk' and/or 'com.tarjetanaranja.ncuenta'
+[debug] [35m[ADB][39m The current install state of 'Y:\Git\APKs\NaranjaX\base.apk' is unknown. Installing anyway
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''
+[debug] [35m[ADB][39m The count of applications in the cache: 6
+[info] [35m[ADB][39m The application at 'Y:\Git\APKs\NaranjaX\base.apk' is already cached to '/data/local/tmp/appium_cache/433c993f47b819e1fe8551b830d2fb9804827b17.apk'
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/433c993f47b819e1fe8551b830d2fb9804827b17.apk'[warn] [35m[ADB][39m Cannot upgrade 'com.tarjetanaranja.ncuenta' because of 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\fcucullu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell pm install -r /data/local/tmp/appium_cache/433c993f47b819e1fe8551b830d2fb9804827b17.apk' exited with code 1'; Stderr: 'Failure [INSTALL_PARSE_FAILED_UNEXPECTED_EXCEPTION: Failed to parse /data/app/vmdl432888228.tmp/base.apk: AndroidManifest.xml]'; Code: '1''. Trying full reinstall
+[debug] [35m[ADB][39m Uninstalling com.tarjetanaranja.ncuenta
+[debug] [35m[ADB][39m Getting install status for com.tarjetanaranja.ncuenta
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.tarjetanaranja.ncuenta'
+[debug] [35m[ADB][39m 'com.tarjetanaranja.ncuenta' is installed
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.tarjetanaranja.ncuenta'[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 uninstall com.tarjetanaranja.ncuenta'[debug] [35m[ADB][39m 'adb uninstall com.tarjetanaranja.ncuenta' command output: Success
+[info] [35m[ADB][39m com.tarjetanaranja.ncuenta was successfully uninstalled
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'ls -t -1 /data/local/tmp/appium_cache 2>&1 || echo _ERROR_''[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[debug] [35m[AndroidDriver][39m Called deleteSession but bootstrap wasn't active
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Running 'C:\Users\fcucullu\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.unlock'[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1569951905131 (14:45:05 GMT-0300 (Hora estándar de Argentina))
+[debug] [35m[W3C][39m Encountered internal error running command: Error executing adbExec. Original error: 'Command 'C\:\\Users\\fcucullu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell pm install /data/local/tmp/appium_cache/433c993f47b819e1fe8551b830d2fb9804827b17.apk' exited with code 1'; Stderr: 'Failure [INSTALL_PARSE_FAILED_UNEXPECTED_EXCEPTION: Failed to parse /data/app/vmdl1224457147.tmp/base.apk: AndroidManifest.xml]'; Code: '1'
+[debug] [35m[W3C][39m Error: Command 'C\:\\Users\\fcucullu\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell pm install /data/local/tmp/appium_cache/433c993f47b819e1fe8551b830d2fb9804827b17.apk' exited with code 1
+[debug] [35m[W3C][39m     at ChildProcess.proc.on.code (C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\teen_process\lib\exec.js:94:19)
+[debug] [35m[W3C][39m     at ChildProcess.emit (events.js:182:13)
+[debug] [35m[W3C][39m     at maybeClose (internal/child_process.js:961:16)
+[debug] [35m[W3C][39m     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m7393 ms - 1492[39m
+[info] [35m[HTTP][39m [90m[39m

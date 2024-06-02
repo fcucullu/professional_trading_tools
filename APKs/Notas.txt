@@ -1,0 +1,9 @@
+Para tirar el codigo en python, primero hay que abrir el server
+de appium y el emulador. 
+
+Para abrir Appium por consola se puede hacer tirando el comando:
+
+
+Para abrir Emulador por consola se puede hacer tirando el comando:
+cd %ANDROID_HOME%\emulator
+emulator -avd Emulador1
