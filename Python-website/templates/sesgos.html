@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-3">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Competencia Dolar</title>
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css\main.css') }}">
+    <meta http-equiv="refresh" content="5" >
+
+</head>
+<style>
+table{
+    width:100%
+}
+
+table thead tr th{
+    text-align:center;
+     background: #564585; 
+     color: #FFF;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Cotizacion de la competencia real-time</h1>
+    
+                    {% for table in tables %}
+                            
+                            {{ table|safe }}
+                    {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

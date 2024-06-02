@@ -1,0 +1,23 @@
+
+<script language="JavaScript" src="/inc/prototype.js"></script>
+<script language="JavaScript">
+	var ID_Cliente_Java = ''
+	var url = '/Inc/Trae_ID_Session.asp?Rnd=';
+	new PeriodicalExecuter(function(pe) {
+		new Ajax.Request(url + Math.random(), {
+			method: 'get',
+			onSuccess: function(transport) {
+				//alert (transport.responseText + '-' + ID_Cliente_Java);
+				if (transport.responseText != ID_Cliente_Java && transport.responseText != '' && ID_Cliente_Java != '') {
+					document.location.replace('/default.asp');
+				}
+			}
+		});
+	}, 2);
+</script>
+ <font face="Arial" size=2>
+<p>Microsoft OLE DB Provider for ODBC Drivers</font> <font face="Arial" size=2>error '80040e0c'</font>
+<p>
+<font face="Arial" size=2>Command text was not set for the command object.</font>
+<p>
+<font face="Arial" size=2>/Reportes/Exportar.asp</font><font face="Arial" size=2>, line 68</font> 

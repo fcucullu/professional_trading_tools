@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-3">
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Dashboard I+D</title>
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='C:/Users/Francisco/Desktop/Trabajo/XCapit/x-notebooks/20210622_dashboard/Python-website/static/css/main.css') }}">
+    <meta http-equiv="refresh" content="5" >
+</head>
+<style>
+
+table{
+    width:100%
+}
+table thead tr th{
+    text-align:center;
+     background: #564585; 
+     color: #FFF;
+     
+}
+</style>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+            <h1></h1>
+            <img src="https://uploads-ssl.webflow.com/5e7cb8e0177edb455efd7df1/5f56a710bdd59b197f7befc1_logo-gris.png" width="20%" >
+                <!--<h1>Cotizacion de la competencia real-time</h1>-->
+            <h1></h1>
+            {% for table in tables %}
+                    
+                    {{ table|safe }}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
